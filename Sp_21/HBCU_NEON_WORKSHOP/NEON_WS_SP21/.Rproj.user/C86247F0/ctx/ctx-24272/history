@@ -1,0 +1,66 @@
+install.packages("devtools")
+install.packages("neonUtilities")
+install.packages("raster")
+devtools::install_github("NEONScience/NEON-geolocation/geoNEON")
+update.packages()
+Yes
+update.packages()
+install.packages("swirl")
+library(swirl)
+swirl()
+5+7
+x<-5+7
+x
+y<-x-3
+y
+c(1.1,9,3.14)
+z<-c(1.1,9.3.14)
+z <- c(1.1, 9, 3.14)
+?c
+z
+c(z,555,z)
+z*2+100
+my_sqrt <- sqrt(z-1)
+my_sqrt
+my_div <- z/my_sqrt
+my_div
+install.packages("devtools")
+install.packages("neonUtilities")
+# load packages
+library(neonUtilities)
+library(geoNEON)
+library(raster)
+# Set global option to NOT convert all character variables to factors
+options(stringsAsFactors=F)
+# Modify the file path to match the path to your zip file
+stackByTable("~/Downloads/NEON_par.zip")
+# Modify the file path to match the path to your zip file
+stackByTable("~/Downloads/NEON_par.zip")
+source('~/.active-rstudio-document')
+pr <- readTableNEON('~/Downloads/NEON_par/stackedFiles/PARPAR_30min.csv', '~/Downloads/NEON_par/stackedFiles/variables_00024.csv')
+View(pr)
+plot(PARMean~startDateTime,
+data=pr[which(pr$verticalPosition="080"),],
+type="l")
+plot(PARMean~startDateTime,
+data=pr[which(pr$verticalPosition=="080"),],
+type="l")
+veg_str <- loadByProduct(dpID="DP1.10098.001", site="WREF",
+package="expanded", check.size=T)
+names(veg_str)
+View(veg_str$vst_perplotperyear)
+list2env(veg_str, .GlobalEnv)
+View(variables_10098)
+View(validation_10098)
+names(vst_mappingandtagging) #this object was created using list2env() above
+vegmap <- geoNEON::getLocTOS(vst_mappingandtagging, "vst_mappingandtagging")
+names(vegmap)
+veg <- merge(vst_apparentindividual, vegmap, by=c("individualID","namedLocation",
+"domainID","siteID","plotID"))
+byTileAOP("DP1.10111.001", savepath="~/Downloads")
+dist <- loadByProduct(dpID="DP1.10111.001"
+, check.size=T)
+View(dist)
+install.packages("devtools")
+install.packages("neonUtilities")
+install.packages("raster")

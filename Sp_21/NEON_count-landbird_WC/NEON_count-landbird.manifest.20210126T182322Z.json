@@ -1,0 +1,2330 @@
+{
+  "uuid": "ed841ebe-b1fe-4b5b-9894-6b8f6c041601",
+  "timestamp": "2021-01-26T18:22:53Z",
+  "zipFileName": "NEON_count-landbird",
+  "mimeType": "application/zip",
+  "productCode": "DP1.10003.001",
+  "productName": "Breeding landbird point counts",
+  "siteCodes": [
+    "ABBY",
+    "BARR",
+    "DEJU",
+    "HEAL",
+    "SJER",
+    "SOAP",
+    "TEAK",
+    "WREF"
+  ],
+  "startDate": "2013-06-01T00:00:00Z",
+  "endDate": "2020-07-31T23:59:59Z",
+  "packageType": "expanded",
+  "documents": [],
+  "releases": [
+    {
+      "release": "PROVISIONAL",
+      "generationDate": null,
+      "packages": [
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "DEJU",
+          "month": "2020-06",
+          "packageType": "expanded",
+          "generationDate": "2020-12-23T14:18:45Z",
+          "files": [
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_references.expanded.20201223T141839Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.D19.DEJU.DP1.10003.001.brd_references.expanded.20201223T141839Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "e643c9c464dc99f70771a5fe0f381003",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.readme.20201223T141839Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.D19.DEJU.DP1.10003.001.readme.20201223T141839Z.txt",
+              "fileSizeBytes": 13642,
+              "checksum": "575932d3415adf51e2271009f64a89ee",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP0.10003.001.categoricalCodes.20201223T141839Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.D19.DEJU.DP0.10003.001.categoricalCodes.20201223T141839Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP0.10003.001.validation.20201223T141839Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.D19.DEJU.DP0.10003.001.validation.20201223T141839Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141839Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141839Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_perpoint.2020-06.expanded.20201223T141839Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.D19.DEJU.DP1.10003.001.brd_perpoint.2020-06.expanded.20201223T141839Z.csv",
+              "fileSizeBytes": 30763,
+              "checksum": "8d8606e2d640fbb22705dbfb959430c6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.EML.20200608-20200612.20201223T141839Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.D19.DEJU.DP1.10003.001.EML.20200608-20200612.20201223T141839Z.xml",
+              "fileSizeBytes": 88310,
+              "checksum": "545eb86358f5706b2fa66154cc8ddf27",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_countdata.2020-06.expanded.20201223T141839Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.D19.DEJU.DP1.10003.001.brd_countdata.2020-06.expanded.20201223T141839Z.csv",
+              "fileSizeBytes": 242144,
+              "checksum": "4b70c7d9d6ebae95d6d9f6bb8e2ce258",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.variables.20201223T141839Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/DEJU/2020-06/NEON.D19.DEJU.DP1.10003.001.variables.20201223T141839Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "HEAL",
+          "month": "2020-06",
+          "packageType": "expanded",
+          "generationDate": "2020-12-23T14:20:05Z",
+          "files": [
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.readme.20201223T142001Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.D19.HEAL.DP1.10003.001.readme.20201223T142001Z.txt",
+              "fileSizeBytes": 13642,
+              "checksum": "0d11fb4a0df51b14e98482b60473701a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.validation.20201223T142001Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.D19.HEAL.DP0.10003.001.validation.20201223T142001Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142001Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142001Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2020-06.expanded.20201223T142001Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2020-06.expanded.20201223T142001Z.csv",
+              "fileSizeBytes": 27940,
+              "checksum": "153e12400e26ee9588b1a913562c8552",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_countdata.2020-06.expanded.20201223T142001Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.D19.HEAL.DP1.10003.001.brd_countdata.2020-06.expanded.20201223T142001Z.csv",
+              "fileSizeBytes": 162409,
+              "checksum": "22f66113005755ac8aa3120d4f879aa6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142001Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142001Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "fa48aed7a2bedceb69daed778161da74",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142001Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142001Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.EML.20200620-20200626.20201223T142001Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.D19.HEAL.DP1.10003.001.EML.20200620-20200626.20201223T142001Z.xml",
+              "fileSizeBytes": 88310,
+              "checksum": "6a8a23286481ed2ce1a85ca739edb084",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.variables.20201223T142001Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.10003.001/HEAL/2020-06/NEON.D19.HEAL.DP1.10003.001.variables.20201223T142001Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release": "RELEASE-2021",
+      "generationDate": "2021-01-23T02:30:02Z",
+      "packages": [
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D16",
+          "siteCode": "ABBY",
+          "month": "2017-05",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.variables.20201223T142005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.D16.ABBY.DP1.10003.001.variables.20201223T142005Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.EML.20170526-20170527.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.D16.ABBY.DP1.10003.001.EML.20170526-20170527.20210123T023002Z.xml",
+              "fileSizeBytes": 178790,
+              "checksum": "c3b07aecf45c88d07714f6a7eff868d0",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T142005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T142005Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "2d772fc2122dc2d75588a4a06df30632",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T142005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T142005Z.csv",
+              "fileSizeBytes": 604,
+              "checksum": "8e66090c8af563f67029134714ffbbb4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2017-05.expanded.20201223T142005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2017-05.expanded.20201223T142005Z.csv",
+              "fileSizeBytes": 7349,
+              "checksum": "88f7699295153bbf250c79965825db8f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_countdata.2017-05.expanded.20201223T142005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.D16.ABBY.DP1.10003.001.brd_countdata.2017-05.expanded.20201223T142005Z.csv",
+              "fileSizeBytes": 87893,
+              "checksum": "5d34f8c46bb5827461632af17971fd99",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.validation.20201223T142005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.D16.ABBY.DP0.10003.001.validation.20201223T142005Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-05/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142005Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D16",
+          "siteCode": "ABBY",
+          "month": "2017-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.EML.20170604-20170605.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.D16.ABBY.DP1.10003.001.EML.20170604-20170605.20210123T023002Z.xml",
+              "fileSizeBytes": 178790,
+              "checksum": "6e826a9fe14118a39cefdbd6316d6660",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.validation.20201223T142020Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.D16.ABBY.DP0.10003.001.validation.20201223T142020Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T142020Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T142020Z.csv",
+              "fileSizeBytes": 604,
+              "checksum": "8e66090c8af563f67029134714ffbbb4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T142020Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T142020Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_countdata.2017-06.expanded.20201223T142020Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.D16.ABBY.DP1.10003.001.brd_countdata.2017-06.expanded.20201223T142020Z.csv",
+              "fileSizeBytes": 87138,
+              "checksum": "aadbd622d18531f1b7ada3f17702b6cd",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.variables.20201223T142020Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.D16.ABBY.DP1.10003.001.variables.20201223T142020Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2017-06.expanded.20201223T142020Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2017-06.expanded.20201223T142020Z.csv",
+              "fileSizeBytes": 7676,
+              "checksum": "6d306d269f5fd20475cec9c0802efec7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "a06e5053fab3eb56b144202c0584102c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142020Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2017-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142020Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D16",
+          "siteCode": "ABBY",
+          "month": "2018-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T141947Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T141947Z.csv",
+              "fileSizeBytes": 7524,
+              "checksum": "fb36a3ef4fa9c83ba34b881a10040c26",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T141947Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T141947Z.csv",
+              "fileSizeBytes": 604,
+              "checksum": "8e66090c8af563f67029134714ffbbb4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T141947Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.D16.ABBY.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T141947Z.csv",
+              "fileSizeBytes": 94246,
+              "checksum": "3df99a7324f859b0788b499ea1226877",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.EML.20180619-20180623.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.D16.ABBY.DP1.10003.001.EML.20180619-20180623.20210123T023002Z.xml",
+              "fileSizeBytes": 178790,
+              "checksum": "28593bdbabc44129879b54605c050bfa",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "c7b3edc65ec02885d24e6a1b3554933f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.variables.20201223T141947Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.D16.ABBY.DP1.10003.001.variables.20201223T141947Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T141947Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T141947Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.validation.20201223T141947Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.D16.ABBY.DP0.10003.001.validation.20201223T141947Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141947Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141947Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D16",
+          "siteCode": "ABBY",
+          "month": "2018-07",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.validation.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.D16.ABBY.DP0.10003.001.validation.20201223T142038Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_countdata.2018-07.expanded.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.D16.ABBY.DP1.10003.001.brd_countdata.2018-07.expanded.20201223T142038Z.csv",
+              "fileSizeBytes": 17863,
+              "checksum": "151b19a45ce48fc9ffeafcb2b44a91ea",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "8218a11d34b765cacd19c34a822d2e3e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T142038Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142038Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T142038Z.csv",
+              "fileSizeBytes": 604,
+              "checksum": "8e66090c8af563f67029134714ffbbb4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2018-07.expanded.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2018-07.expanded.20201223T142038Z.csv",
+              "fileSizeBytes": 2108,
+              "checksum": "3fe67f3c1757016e1498b9c437ac7f43",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.variables.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.D16.ABBY.DP1.10003.001.variables.20201223T142038Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.EML.20180701-20180701.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2018-07/NEON.D16.ABBY.DP1.10003.001.EML.20180701-20180701.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "8a0829bc4c6992865d34a858d2aa8e22",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D16",
+          "siteCode": "ABBY",
+          "month": "2019-05",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.D16.ABBY.DP0.10003.001.categoricalCodes.20201223T142038Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.D16.ABBY.DP1.10003.001.brd_references.expanded.20201223T142038Z.csv",
+              "fileSizeBytes": 604,
+              "checksum": "8e66090c8af563f67029134714ffbbb4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.EML.20190523-20190529.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.D16.ABBY.DP1.10003.001.EML.20190523-20190529.20210123T023002Z.xml",
+              "fileSizeBytes": 178790,
+              "checksum": "45aeb3a0325e8eb034bb698532dfe35b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.D16.ABBY.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "4ff3602820bff4c74ef15d69893a9ed5",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142038Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_countdata.2019-05.expanded.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.D16.ABBY.DP1.10003.001.brd_countdata.2019-05.expanded.20201223T142038Z.csv",
+              "fileSizeBytes": 150732,
+              "checksum": "e6f1d37b0b92ecb6e8336c6c552ea216",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP0.10003.001.validation.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.D16.ABBY.DP0.10003.001.validation.20201223T142038Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.variables.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.D16.ABBY.DP1.10003.001.variables.20201223T142038Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2019-05.expanded.20201223T142038Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/ABBY/2019-05/NEON.D16.ABBY.DP1.10003.001.brd_perpoint.2019-05.expanded.20201223T142038Z.csv",
+              "fileSizeBytes": 13951,
+              "checksum": "7f84c7cc4e231d45b9aeb72d6d86689b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D18",
+          "siteCode": "BARR",
+          "month": "2017-07",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_countdata.2017-07.expanded.20201223T141935Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.D18.BARR.DP1.10003.001.brd_countdata.2017-07.expanded.20201223T141935Z.csv",
+              "fileSizeBytes": 151296,
+              "checksum": "edc884fad44a78044d998ec2427ffa26",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP0.10003.001.validation.20201223T141935Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.D18.BARR.DP0.10003.001.validation.20201223T141935Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.EML.20170706-20170710.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.D18.BARR.DP1.10003.001.EML.20170706-20170710.20210123T023002Z.xml",
+              "fileSizeBytes": 178798,
+              "checksum": "7d2fc2c3da4773c36c755260a3e5397d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP0.10003.001.categoricalCodes.20201223T141935Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.D18.BARR.DP0.10003.001.categoricalCodes.20201223T141935Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_perpoint.2017-07.expanded.20201223T141935Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.D18.BARR.DP1.10003.001.brd_perpoint.2017-07.expanded.20201223T141935Z.csv",
+              "fileSizeBytes": 24405,
+              "checksum": "721c53620d06ce5a4023aeb19bca2a70",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.D18.BARR.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "b59b32c201eb876560abe4d71056bca2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_references.expanded.20201223T141935Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.D18.BARR.DP1.10003.001.brd_references.expanded.20201223T141935Z.csv",
+              "fileSizeBytes": 604,
+              "checksum": "e53e5629cd70ca96a78d8ac9723425a3",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141935Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141935Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.variables.20201223T141935Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2017-07/NEON.D18.BARR.DP1.10003.001.variables.20201223T141935Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D18",
+          "siteCode": "BARR",
+          "month": "2018-07",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141829Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP0.10003.001.categoricalCodes.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.D18.BARR.DP0.10003.001.categoricalCodes.20201223T141829Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_countdata.2018-07.expanded.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.D18.BARR.DP1.10003.001.brd_countdata.2018-07.expanded.20201223T141829Z.csv",
+              "fileSizeBytes": 161550,
+              "checksum": "1f280375a19f99d05c8e74faedb69182",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_references.expanded.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.D18.BARR.DP1.10003.001.brd_references.expanded.20201223T141829Z.csv",
+              "fileSizeBytes": 604,
+              "checksum": "e53e5629cd70ca96a78d8ac9723425a3",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.D18.BARR.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "eae290337e13a228d6436339c0b71c9d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_perpoint.2018-07.expanded.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.D18.BARR.DP1.10003.001.brd_perpoint.2018-07.expanded.20201223T141829Z.csv",
+              "fileSizeBytes": 24004,
+              "checksum": "43806210e7cacf8e04d7f55e63afcc03",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.EML.20180708-20180711.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.D18.BARR.DP1.10003.001.EML.20180708-20180711.20210123T023002Z.xml",
+              "fileSizeBytes": 178798,
+              "checksum": "58238d43e8054cef2b21a109a8dc7f9a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP0.10003.001.validation.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.D18.BARR.DP0.10003.001.validation.20201223T141829Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.variables.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2018-07/NEON.D18.BARR.DP1.10003.001.variables.20201223T141829Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D18",
+          "siteCode": "BARR",
+          "month": "2019-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.D18.BARR.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "cfb099c9e2fb6e10fe27c300055babd9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP0.10003.001.categoricalCodes.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.D18.BARR.DP0.10003.001.categoricalCodes.20201223T141829Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.D18.BARR.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T141829Z.csv",
+              "fileSizeBytes": 237702,
+              "checksum": "dbeb830152261df8feb7969d917ee470",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.D18.BARR.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T141829Z.csv",
+              "fileSizeBytes": 23770,
+              "checksum": "423e6a9c06e33b7e7fb450e8ea105a66",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.brd_references.expanded.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.D18.BARR.DP1.10003.001.brd_references.expanded.20201223T141829Z.csv",
+              "fileSizeBytes": 604,
+              "checksum": "e53e5629cd70ca96a78d8ac9723425a3",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP0.10003.001.validation.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.D18.BARR.DP0.10003.001.validation.20201223T141829Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141829Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.EML.20190619-20190621.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.D18.BARR.DP1.10003.001.EML.20190619-20190621.20210123T023002Z.xml",
+              "fileSizeBytes": 178798,
+              "checksum": "077c8312d821e3b13b756e16cc219642",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D18.BARR.DP1.10003.001.variables.20201223T141829Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/BARR/2019-06/NEON.D18.BARR.DP1.10003.001.variables.20201223T141829Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "DEJU",
+          "month": "2017-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.D19.DEJU.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "5820d5671837783eddbe57b9ec9b0fc8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_perpoint.2017-06.expanded.20201223T141943Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.D19.DEJU.DP1.10003.001.brd_perpoint.2017-06.expanded.20201223T141943Z.csv",
+              "fileSizeBytes": 31396,
+              "checksum": "90e67c2d8caf3a290d030879d9aa7dec",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141943Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141943Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP0.10003.001.validation.20201223T141943Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.D19.DEJU.DP0.10003.001.validation.20201223T141943Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.EML.20170613-20170618.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.D19.DEJU.DP1.10003.001.EML.20170613-20170618.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "d108e21fec46cbb3b00b853e5a4ac3a8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_references.expanded.20201223T141943Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.D19.DEJU.DP1.10003.001.brd_references.expanded.20201223T141943Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "e643c9c464dc99f70771a5fe0f381003",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.variables.20201223T141943Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.D19.DEJU.DP1.10003.001.variables.20201223T141943Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP0.10003.001.categoricalCodes.20201223T141943Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.D19.DEJU.DP0.10003.001.categoricalCodes.20201223T141943Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_countdata.2017-06.expanded.20201223T141943Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2017-06/NEON.D19.DEJU.DP1.10003.001.brd_countdata.2017-06.expanded.20201223T141943Z.csv",
+              "fileSizeBytes": 227994,
+              "checksum": "73266e8d13492ae7d76e79956e5b68cb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "DEJU",
+          "month": "2018-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141926Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141926Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.EML.20180625-20180628.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.D19.DEJU.DP1.10003.001.EML.20180625-20180628.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "f999953213ac9eabebf4da4168e490e6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP0.10003.001.validation.20201223T141926Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.D19.DEJU.DP0.10003.001.validation.20201223T141926Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP0.10003.001.categoricalCodes.20201223T141926Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.D19.DEJU.DP0.10003.001.categoricalCodes.20201223T141926Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T141926Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.D19.DEJU.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T141926Z.csv",
+              "fileSizeBytes": 30626,
+              "checksum": "b4f0f9a9ef6463e046f48c85bfffc6bc",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.variables.20201223T141926Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.D19.DEJU.DP1.10003.001.variables.20201223T141926Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.D19.DEJU.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "45319d86391d74ecb1104ca2ac880d07",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T141926Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.D19.DEJU.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T141926Z.csv",
+              "fileSizeBytes": 233382,
+              "checksum": "999f344c0a5e518d35299a14559f88ee",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_references.expanded.20201223T141926Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2018-06/NEON.D19.DEJU.DP1.10003.001.brd_references.expanded.20201223T141926Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "e643c9c464dc99f70771a5fe0f381003",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "DEJU",
+          "month": "2019-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141944Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141944Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T141944Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.D19.DEJU.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T141944Z.csv",
+              "fileSizeBytes": 30585,
+              "checksum": "4a8c86f37ba2c71361ddcddd2ce8e2c8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_references.expanded.20201223T141944Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.D19.DEJU.DP1.10003.001.brd_references.expanded.20201223T141944Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "e643c9c464dc99f70771a5fe0f381003",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.EML.20190613-20190616.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.D19.DEJU.DP1.10003.001.EML.20190613-20190616.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "9f7d1d0c19f60f92aa981027a9209bcb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.D19.DEJU.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "2345c69c23fbf695a72ca2408ef0718d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP0.10003.001.validation.20201223T141944Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.D19.DEJU.DP0.10003.001.validation.20201223T141944Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T141944Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.D19.DEJU.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T141944Z.csv",
+              "fileSizeBytes": 219550,
+              "checksum": "14fbb3b5944dfa6f0bf564c99322718e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP0.10003.001.categoricalCodes.20201223T141944Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.D19.DEJU.DP0.10003.001.categoricalCodes.20201223T141944Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.DEJU.DP1.10003.001.variables.20201223T141944Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/DEJU/2019-06/NEON.D19.DEJU.DP1.10003.001.variables.20201223T141944Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "HEAL",
+          "month": "2017-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2017-06.expanded.20201223T142022Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2017-06.expanded.20201223T142022Z.csv",
+              "fileSizeBytes": 34774,
+              "checksum": "41a83f700b0e7255487e822f06b2dd93",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "2ae3b0e44de9d7dbccd984008f1f6cd0",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142022Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142022Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.variables.20201223T142022Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.D19.HEAL.DP1.10003.001.variables.20201223T142022Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.validation.20201223T142022Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.D19.HEAL.DP0.10003.001.validation.20201223T142022Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.EML.20170605-20170612.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.D19.HEAL.DP1.10003.001.EML.20170605-20170612.20210123T023002Z.xml",
+              "fileSizeBytes": 178789,
+              "checksum": "24f4beaf80952d3d0711e325fa18dc10",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_countdata.2017-06.expanded.20201223T142022Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.D19.HEAL.DP1.10003.001.brd_countdata.2017-06.expanded.20201223T142022Z.csv",
+              "fileSizeBytes": 203223,
+              "checksum": "c13ef131c570d8d5208c64d168baa701",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142022Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142022Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142022Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2017-06/NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142022Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "fa48aed7a2bedceb69daed778161da74",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "HEAL",
+          "month": "2018-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T142019Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T142019Z.csv",
+              "fileSizeBytes": 17745,
+              "checksum": "e520ac051e47e28d54d439aa8ab5f6ed",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.variables.20201223T142019Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.D19.HEAL.DP1.10003.001.variables.20201223T142019Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142019Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142019Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "fa48aed7a2bedceb69daed778161da74",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.validation.20201223T142019Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.D19.HEAL.DP0.10003.001.validation.20201223T142019Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142019Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142019Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T142019Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.D19.HEAL.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T142019Z.csv",
+              "fileSizeBytes": 104725,
+              "checksum": "27d1215036e0a4466220ae7ee6bb303c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142019Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142019Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "113183b3279855704cdc42569dc7a001",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.EML.20180627-20180630.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-06/NEON.D19.HEAL.DP1.10003.001.EML.20180627-20180630.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "ee1e211f52757b60ce86c4d260dc721a",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "HEAL",
+          "month": "2018-07",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.EML.20180701-20180703.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.D19.HEAL.DP1.10003.001.EML.20180701-20180703.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "c7a9a128c6e4a0aa4fb981f12c979b4f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T141951Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T141951Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T141951Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T141951Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "fa48aed7a2bedceb69daed778161da74",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_countdata.2018-07.expanded.20201223T141951Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.D19.HEAL.DP1.10003.001.brd_countdata.2018-07.expanded.20201223T141951Z.csv",
+              "fileSizeBytes": 63522,
+              "checksum": "8377f1144e5e934834dd83d12211ddc4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2018-07.expanded.20201223T141951Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2018-07.expanded.20201223T141951Z.csv",
+              "fileSizeBytes": 9283,
+              "checksum": "82421d30b83a2c1ec33b900e05bfc81c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141951Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141951Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.validation.20201223T141951Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.D19.HEAL.DP0.10003.001.validation.20201223T141951Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.variables.20201223T141951Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.D19.HEAL.DP1.10003.001.variables.20201223T141951Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2018-07/NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "8eeb7344165e1945329dac394951cd68",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "HEAL",
+          "month": "2019-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.variables.20201223T142016Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.D19.HEAL.DP1.10003.001.variables.20201223T142016Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.EML.20190626-20190630.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.D19.HEAL.DP1.10003.001.EML.20190626-20190630.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "070bbf63fec8982885a0ed64fd0e7e89",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142016Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142016Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "fa48aed7a2bedceb69daed778161da74",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T142016Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T142016Z.csv",
+              "fileSizeBytes": 23950,
+              "checksum": "a14bcfbce9a50b245fe29224af512a4d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.validation.20201223T142016Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.D19.HEAL.DP0.10003.001.validation.20201223T142016Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T142016Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.D19.HEAL.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T142016Z.csv",
+              "fileSizeBytes": 145551,
+              "checksum": "914e02280ce1951d11e9a8531cbe50fe",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142016Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142016Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142016Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142016Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-06/NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "cbbb30075866d3c28c4ed4631043e6fb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D19",
+          "siteCode": "HEAL",
+          "month": "2019-07",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142041Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.EML.20190702-20190707.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.D19.HEAL.DP1.10003.001.EML.20190702-20190707.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "dea0c4802286ff9ef51e42908dc79154",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.D19.HEAL.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "fd78102318a61500a611895647f67ab7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2019-07.expanded.20201223T142041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.D19.HEAL.DP1.10003.001.brd_perpoint.2019-07.expanded.20201223T142041Z.csv",
+              "fileSizeBytes": 9280,
+              "checksum": "dcfae913300c597d5797867a8f3d933d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.variables.20201223T142041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.D19.HEAL.DP1.10003.001.variables.20201223T142041Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_countdata.2019-07.expanded.20201223T142041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.D19.HEAL.DP1.10003.001.brd_countdata.2019-07.expanded.20201223T142041Z.csv",
+              "fileSizeBytes": 50690,
+              "checksum": "d194d9738d0577849f0492f6ec3527f4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.D19.HEAL.DP0.10003.001.categoricalCodes.20201223T142041Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.D19.HEAL.DP1.10003.001.brd_references.expanded.20201223T142041Z.csv",
+              "fileSizeBytes": 878,
+              "checksum": "fa48aed7a2bedceb69daed778161da74",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D19.HEAL.DP0.10003.001.validation.20201223T142041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/HEAL/2019-07/NEON.D19.HEAL.DP0.10003.001.validation.20201223T142041Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "SJER",
+          "month": "2017-04",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_references.expanded.20201223T141722Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.D17.SJER.DP1.10003.001.brd_references.expanded.20201223T141722Z.csv",
+              "fileSizeBytes": 709,
+              "checksum": "9391235faf273f77ac1c55796c856100",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_countdata.2017-04.expanded.20201223T141722Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.D17.SJER.DP1.10003.001.brd_countdata.2017-04.expanded.20201223T141722Z.csv",
+              "fileSizeBytes": 471357,
+              "checksum": "796165d43814f009810baea580fb4d37",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP0.10003.001.validation.20201223T141722Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.D17.SJER.DP0.10003.001.validation.20201223T141722Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP0.10003.001.categoricalCodes.20201223T141722Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.D17.SJER.DP0.10003.001.categoricalCodes.20201223T141722Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.variables.20201223T141722Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.D17.SJER.DP1.10003.001.variables.20201223T141722Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.EML.20170412-20170425.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.D17.SJER.DP1.10003.001.EML.20170412-20170425.20210123T023002Z.xml",
+              "fileSizeBytes": 178787,
+              "checksum": "ab28b58cd015610c4de63e9a4fdd19ec",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_perpoint.2017-04.expanded.20201223T141722Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.D17.SJER.DP1.10003.001.brd_perpoint.2017-04.expanded.20201223T141722Z.csv",
+              "fileSizeBytes": 33509,
+              "checksum": "499cd534db5e1393055ab869ba388c58",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141722Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141722Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2017-04/NEON.D17.SJER.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "7fd996e234a6b87bb743498f38124bac",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "SJER",
+          "month": "2018-04",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.variables.20201223T141729Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.D17.SJER.DP1.10003.001.variables.20201223T141729Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_perpoint.2018-04.expanded.20201223T141729Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.D17.SJER.DP1.10003.001.brd_perpoint.2018-04.expanded.20201223T141729Z.csv",
+              "fileSizeBytes": 30857,
+              "checksum": "13f8db1093ffa9986b3e6893f11fb32d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.D17.SJER.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "b708ebf5e3067a7f626060c4243293c5",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP0.10003.001.validation.20201223T141729Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.D17.SJER.DP0.10003.001.validation.20201223T141729Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141729Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141729Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_countdata.2018-04.expanded.20201223T141729Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.D17.SJER.DP1.10003.001.brd_countdata.2018-04.expanded.20201223T141729Z.csv",
+              "fileSizeBytes": 659939,
+              "checksum": "a00b1f0c61e05df9593585f2761be113",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_references.expanded.20201223T141729Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.D17.SJER.DP1.10003.001.brd_references.expanded.20201223T141729Z.csv",
+              "fileSizeBytes": 709,
+              "checksum": "9391235faf273f77ac1c55796c856100",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.EML.20180417-20180424.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.D17.SJER.DP1.10003.001.EML.20180417-20180424.20210123T023002Z.xml",
+              "fileSizeBytes": 178787,
+              "checksum": "e21112e42e93bd1146891dc849dc5d57",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP0.10003.001.categoricalCodes.20201223T141729Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2018-04/NEON.D17.SJER.DP0.10003.001.categoricalCodes.20201223T141729Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "SJER",
+          "month": "2019-04",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_references.expanded.20201223T141718Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.D17.SJER.DP1.10003.001.brd_references.expanded.20201223T141718Z.csv",
+              "fileSizeBytes": 709,
+              "checksum": "9391235faf273f77ac1c55796c856100",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.variables.20201223T141718Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.D17.SJER.DP1.10003.001.variables.20201223T141718Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP0.10003.001.validation.20201223T141718Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.D17.SJER.DP0.10003.001.validation.20201223T141718Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.D17.SJER.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "de0d74ee07b8c670aceafaa1ce492660",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.EML.20190403-20190410.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.D17.SJER.DP1.10003.001.EML.20190403-20190410.20210123T023002Z.xml",
+              "fileSizeBytes": 178787,
+              "checksum": "6155f67018d557a4ceccb78d18b9c405",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_countdata.2019-04.expanded.20201223T141718Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.D17.SJER.DP1.10003.001.brd_countdata.2019-04.expanded.20201223T141718Z.csv",
+              "fileSizeBytes": 668682,
+              "checksum": "e79641f366b1ec894dbb88f1b3eb81af",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP0.10003.001.categoricalCodes.20201223T141718Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.D17.SJER.DP0.10003.001.categoricalCodes.20201223T141718Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141718Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141718Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SJER.DP1.10003.001.brd_perpoint.2019-04.expanded.20201223T141718Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SJER/2019-04/NEON.D17.SJER.DP1.10003.001.brd_perpoint.2019-04.expanded.20201223T141718Z.csv",
+              "fileSizeBytes": 32057,
+              "checksum": "b943f9e3227c5abb6c05a4701b8162c8",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "SOAP",
+          "month": "2017-05",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.EML.20170516-20170519.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.D17.SOAP.DP1.10003.001.EML.20170516-20170519.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "dce11d76a026663a2e09776c7be1209f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.variables.20201223T142006Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.D17.SOAP.DP1.10003.001.variables.20201223T142006Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP0.10003.001.categoricalCodes.20201223T142006Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.D17.SOAP.DP0.10003.001.categoricalCodes.20201223T142006Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_references.expanded.20201223T142006Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.D17.SOAP.DP1.10003.001.brd_references.expanded.20201223T142006Z.csv",
+              "fileSizeBytes": 783,
+              "checksum": "36816ed1305b1141bc82efdf65d7e917",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142006Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142006Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_countdata.2017-05.expanded.20201223T142006Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.D17.SOAP.DP1.10003.001.brd_countdata.2017-05.expanded.20201223T142006Z.csv",
+              "fileSizeBytes": 217350,
+              "checksum": "a7293119571a8ee021ecbfa19d2eb8f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP0.10003.001.validation.20201223T142006Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.D17.SOAP.DP0.10003.001.validation.20201223T142006Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.D17.SOAP.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "c574b57c6ea39a4fc98f5c228115eeec",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_perpoint.2017-05.expanded.20201223T142006Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2017-05/NEON.D17.SOAP.DP1.10003.001.brd_perpoint.2017-05.expanded.20201223T142006Z.csv",
+              "fileSizeBytes": 13560,
+              "checksum": "724d5113d61909622bba89e7aa6b141c",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "SOAP",
+          "month": "2018-05",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.EML.20180515-20180516.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.D17.SOAP.DP1.10003.001.EML.20180515-20180516.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "b3e1335320258a76c610c133fb578269",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_references.expanded.20201223T141936Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.D17.SOAP.DP1.10003.001.brd_references.expanded.20201223T141936Z.csv",
+              "fileSizeBytes": 783,
+              "checksum": "36816ed1305b1141bc82efdf65d7e917",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_countdata.2018-05.expanded.20201223T141936Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.D17.SOAP.DP1.10003.001.brd_countdata.2018-05.expanded.20201223T141936Z.csv",
+              "fileSizeBytes": 213025,
+              "checksum": "4fc355ab70947a47b85f87281d04a206",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP0.10003.001.categoricalCodes.20201223T141936Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.D17.SOAP.DP0.10003.001.categoricalCodes.20201223T141936Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.D17.SOAP.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "e699fdbc24d8ce4faf9d7cba298032bf",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP0.10003.001.validation.20201223T141936Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.D17.SOAP.DP0.10003.001.validation.20201223T141936Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141936Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141936Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_perpoint.2018-05.expanded.20201223T141936Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.D17.SOAP.DP1.10003.001.brd_perpoint.2018-05.expanded.20201223T141936Z.csv",
+              "fileSizeBytes": 11549,
+              "checksum": "849462d7497cfcf1841888cc9df56075",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.variables.20201223T141936Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2018-05/NEON.D17.SOAP.DP1.10003.001.variables.20201223T141936Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "SOAP",
+          "month": "2019-05",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.SOAP.DP0.10003.001.categoricalCodes.20201223T142021Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.D17.SOAP.DP0.10003.001.categoricalCodes.20201223T142021Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP0.10003.001.validation.20201223T142021Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.D17.SOAP.DP0.10003.001.validation.20201223T142021Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.EML.20190528-20190531.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.D17.SOAP.DP1.10003.001.EML.20190528-20190531.20210123T023002Z.xml",
+              "fileSizeBytes": 178788,
+              "checksum": "d5ed5d6f6ab59485a3e01ce05d26df8d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_references.expanded.20201223T142021Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.D17.SOAP.DP1.10003.001.brd_references.expanded.20201223T142021Z.csv",
+              "fileSizeBytes": 783,
+              "checksum": "36816ed1305b1141bc82efdf65d7e917",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.D17.SOAP.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "02dfebc94afd163c68c562ff606163b7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_countdata.2019-05.expanded.20201223T142021Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.D17.SOAP.DP1.10003.001.brd_countdata.2019-05.expanded.20201223T142021Z.csv",
+              "fileSizeBytes": 185601,
+              "checksum": "f8c88331e93839893a79927be5f98244",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.brd_perpoint.2019-05.expanded.20201223T142021Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.D17.SOAP.DP1.10003.001.brd_perpoint.2019-05.expanded.20201223T142021Z.csv",
+              "fileSizeBytes": 10993,
+              "checksum": "b1a2585c75d39375aad5ce7d46ed0480",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.SOAP.DP1.10003.001.variables.20201223T142021Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.D17.SOAP.DP1.10003.001.variables.20201223T142021Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142021Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/SOAP/2019-05/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T142021Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "TEAK",
+          "month": "2017-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_references.expanded.20201223T141744Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.D17.TEAK.DP1.10003.001.brd_references.expanded.20201223T141744Z.csv",
+              "fileSizeBytes": 709,
+              "checksum": "0a66c50f9049f6f2690a2d3fc6c76606",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_countdata.2017-06.expanded.20201223T141744Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.D17.TEAK.DP1.10003.001.brd_countdata.2017-06.expanded.20201223T141744Z.csv",
+              "fileSizeBytes": 506500,
+              "checksum": "ec462c91e84dff487b9d28925de92b33",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141744Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141744Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.EML.20170616-20170630.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.D17.TEAK.DP1.10003.001.EML.20170616-20170630.20210123T023002Z.xml",
+              "fileSizeBytes": 178778,
+              "checksum": "16b6858fbd388292fc3691cbdaa7f5de",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP0.10003.001.validation.20201223T141744Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.D17.TEAK.DP0.10003.001.validation.20201223T141744Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_perpoint.2017-06.expanded.20201223T141744Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.D17.TEAK.DP1.10003.001.brd_perpoint.2017-06.expanded.20201223T141744Z.csv",
+              "fileSizeBytes": 38173,
+              "checksum": "f07441b90991653666425c17c08ad737",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP0.10003.001.categoricalCodes.20201223T141744Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.D17.TEAK.DP0.10003.001.categoricalCodes.20201223T141744Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.D17.TEAK.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "6385e8994a9cac2b9e28a723bd1ff651",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.variables.20201223T141744Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2017-06/NEON.D17.TEAK.DP1.10003.001.variables.20201223T141744Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "TEAK",
+          "month": "2018-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_references.expanded.20201223T141802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.D17.TEAK.DP1.10003.001.brd_references.expanded.20201223T141802Z.csv",
+              "fileSizeBytes": 709,
+              "checksum": "0a66c50f9049f6f2690a2d3fc6c76606",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T141802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.D17.TEAK.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T141802Z.csv",
+              "fileSizeBytes": 30497,
+              "checksum": "4b9e9d42617150638910905332eda348",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP0.10003.001.validation.20201223T141802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.D17.TEAK.DP0.10003.001.validation.20201223T141802Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141802Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.EML.20180619-20180622.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.D17.TEAK.DP1.10003.001.EML.20180619-20180622.20210123T023002Z.xml",
+              "fileSizeBytes": 178777,
+              "checksum": "3994c57d15f83586b758014be2ebf36d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP0.10003.001.categoricalCodes.20201223T141802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.D17.TEAK.DP0.10003.001.categoricalCodes.20201223T141802Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.D17.TEAK.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "a3db96a108d4c917be51ab5b59cc7910",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.variables.20201223T141802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.D17.TEAK.DP1.10003.001.variables.20201223T141802Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T141802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2018-06/NEON.D17.TEAK.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T141802Z.csv",
+              "fileSizeBytes": 502062,
+              "checksum": "0bbf8c101d1b0601f86d967bf73d35c5",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "TEAK",
+          "month": "2019-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T141803Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.D17.TEAK.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T141803Z.csv",
+              "fileSizeBytes": 433489,
+              "checksum": "8844acfccee12b920f0f9b754d5eed93",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP0.10003.001.validation.20201223T141803Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.D17.TEAK.DP0.10003.001.validation.20201223T141803Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.variables.20201223T141803Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.D17.TEAK.DP1.10003.001.variables.20201223T141803Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.D17.TEAK.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "6f8a50afb4c0e7e9d00af786c1173ac4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.EML.20190610-20190626.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.D17.TEAK.DP1.10003.001.EML.20190610-20190626.20210123T023002Z.xml",
+              "fileSizeBytes": 178777,
+              "checksum": "36f3d4d1336c464b795875f4b31eaa4a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_references.expanded.20201223T141803Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.D17.TEAK.DP1.10003.001.brd_references.expanded.20201223T141803Z.csv",
+              "fileSizeBytes": 709,
+              "checksum": "0a66c50f9049f6f2690a2d3fc6c76606",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141803Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141803Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP0.10003.001.categoricalCodes.20201223T141803Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.D17.TEAK.DP0.10003.001.categoricalCodes.20201223T141803Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T141803Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-06/NEON.D17.TEAK.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T141803Z.csv",
+              "fileSizeBytes": 27919,
+              "checksum": "8cef2041ca46ead99fc07eb89cf8a222",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D17",
+          "siteCode": "TEAK",
+          "month": "2019-07",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_perpoint.2019-07.expanded.20201223T141810Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.D17.TEAK.DP1.10003.001.brd_perpoint.2019-07.expanded.20201223T141810Z.csv",
+              "fileSizeBytes": 6452,
+              "checksum": "7ac176f8f02cbec588e3cff342ec887c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.D17.TEAK.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "0290b5a9d112765a9be109fe014a5c65",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_references.expanded.20201223T141810Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.D17.TEAK.DP1.10003.001.brd_references.expanded.20201223T141810Z.csv",
+              "fileSizeBytes": 709,
+              "checksum": "0a66c50f9049f6f2690a2d3fc6c76606",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141810Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141810Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.EML.20190701-20190701.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.D17.TEAK.DP1.10003.001.EML.20190701-20190701.20210123T023002Z.xml",
+              "fileSizeBytes": 178776,
+              "checksum": "848120f5c6590b75dc51001272144fad",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.brd_countdata.2019-07.expanded.20201223T141810Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.D17.TEAK.DP1.10003.001.brd_countdata.2019-07.expanded.20201223T141810Z.csv",
+              "fileSizeBytes": 82289,
+              "checksum": "8f2e69392241c054d2d782a58bd090e8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP0.10003.001.categoricalCodes.20201223T141810Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.D17.TEAK.DP0.10003.001.categoricalCodes.20201223T141810Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP0.10003.001.validation.20201223T141810Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.D17.TEAK.DP0.10003.001.validation.20201223T141810Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D17.TEAK.DP1.10003.001.variables.20201223T141810Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/TEAK/2019-07/NEON.D17.TEAK.DP1.10003.001.variables.20201223T141810Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D16",
+          "siteCode": "WREF",
+          "month": "2018-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141939Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141939Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP0.10003.001.validation.20201223T141939Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.D16.WREF.DP0.10003.001.validation.20201223T141939Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.D16.WREF.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "dc42ca165cd9e3db3aa28d6b923725ac",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.EML.20180616-20180630.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.D16.WREF.DP1.10003.001.EML.20180616-20180630.20210123T023002Z.xml",
+              "fileSizeBytes": 178786,
+              "checksum": "7057010e975415259653a814fa295f84",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.variables.20201223T141939Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.D16.WREF.DP1.10003.001.variables.20201223T141939Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP0.10003.001.categoricalCodes.20201223T141939Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.D16.WREF.DP0.10003.001.categoricalCodes.20201223T141939Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T141939Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.D16.WREF.DP1.10003.001.brd_countdata.2018-06.expanded.20201223T141939Z.csv",
+              "fileSizeBytes": 247520,
+              "checksum": "7b450e60c548814342175b86c89dc56d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_references.expanded.20201223T141939Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.D16.WREF.DP1.10003.001.brd_references.expanded.20201223T141939Z.csv",
+              "fileSizeBytes": 377,
+              "checksum": "34a9e658fd0af3e5b48e540583c37636",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T141939Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2018-06/NEON.D16.WREF.DP1.10003.001.brd_perpoint.2018-06.expanded.20201223T141939Z.csv",
+              "fileSizeBytes": 31026,
+              "checksum": "c4118bb2d799bff9ca210cbf69946a74",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D16",
+          "siteCode": "WREF",
+          "month": "2019-05",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_references.expanded.20201223T141932Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.D16.WREF.DP1.10003.001.brd_references.expanded.20201223T141932Z.csv",
+              "fileSizeBytes": 377,
+              "checksum": "34a9e658fd0af3e5b48e540583c37636",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP0.10003.001.categoricalCodes.20201223T141932Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.D16.WREF.DP0.10003.001.categoricalCodes.20201223T141932Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.variables.20201223T141932Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.D16.WREF.DP1.10003.001.variables.20201223T141932Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141932Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141932Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_perpoint.2019-05.expanded.20201223T141932Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.D16.WREF.DP1.10003.001.brd_perpoint.2019-05.expanded.20201223T141932Z.csv",
+              "fileSizeBytes": 9595,
+              "checksum": "11b2aa5c124568b4e2469870ef897844",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.EML.20190530-20190531.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.D16.WREF.DP1.10003.001.EML.20190530-20190531.20210123T023002Z.xml",
+              "fileSizeBytes": 178786,
+              "checksum": "26e04e729cd366d404401570a7890450",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_countdata.2019-05.expanded.20201223T141932Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.D16.WREF.DP1.10003.001.brd_countdata.2019-05.expanded.20201223T141932Z.csv",
+              "fileSizeBytes": 77790,
+              "checksum": "70c7066cf715558d9594b331d2c210ea",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP0.10003.001.validation.20201223T141932Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.D16.WREF.DP0.10003.001.validation.20201223T141932Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-05/NEON.D16.WREF.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "0c3302071f3772d3843209d4d6c02144",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.10003.001",
+          "domainCode": "D16",
+          "siteCode": "WREF",
+          "month": "2019-06",
+          "packageType": "expanded",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D16.WREF.DP0.10003.001.categoricalCodes.20201223T141950Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.D16.WREF.DP0.10003.001.categoricalCodes.20201223T141950Z.csv",
+              "fileSizeBytes": 9521,
+              "checksum": "115177f66ca9b88b28a473f7d476d23c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_references.expanded.20201223T141950Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.D16.WREF.DP1.10003.001.brd_references.expanded.20201223T141950Z.csv",
+              "fileSizeBytes": 377,
+              "checksum": "34a9e658fd0af3e5b48e540583c37636",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP0.10003.001.validation.20201223T141950Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.D16.WREF.DP0.10003.001.validation.20201223T141950Z.csv",
+              "fileSizeBytes": 11357,
+              "checksum": "e5b23aad062e41b93631d8c47278a1db",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.EML.20190601-20190605.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.D16.WREF.DP1.10003.001.EML.20190601-20190605.20210123T023002Z.xml",
+              "fileSizeBytes": 178786,
+              "checksum": "1cea385a6dc96235f101e07ff9993b42",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.variables.20201223T141950Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.D16.WREF.DP1.10003.001.variables.20201223T141950Z.csv",
+              "fileSizeBytes": 8670,
+              "checksum": "437dd6434e1cd8538dc9676dcf6ca7f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T141950Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.D16.WREF.DP1.10003.001.brd_countdata.2019-06.expanded.20201223T141950Z.csv",
+              "fileSizeBytes": 124655,
+              "checksum": "539c279604fcaaa991aaf2f53ca76a72",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141950Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.Bird_Conservancy_of_the_Rockies.brd_personnel.20201223T141950Z.csv",
+              "fileSizeBytes": 63796,
+              "checksum": "893ed864cf0d421da609e856bd3b028f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.D16.WREF.DP1.10003.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 9208,
+              "checksum": "a66d4a75a5a156e1e748dbec755a6990",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D16.WREF.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T141950Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.10003.001/WREF/2019-06/NEON.D16.WREF.DP1.10003.001.brd_perpoint.2019-06.expanded.20201223T141950Z.csv",
+              "fileSizeBytes": 15673,
+              "checksum": "7fe664f2cda85bb975454f03e8d75870",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

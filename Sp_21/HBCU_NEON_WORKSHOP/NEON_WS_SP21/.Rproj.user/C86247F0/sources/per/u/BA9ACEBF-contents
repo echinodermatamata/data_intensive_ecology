@@ -1,0 +1,31 @@
+install.packages("devtools")
+install.packages("neonUtilities")
+install.packages("raster")
+devtools::install_github("NEONScience/NEON-geolocation/geoNEON")
+
+setwd("~/Desktop/Data_Intensive_Ecology_2021")
+
+# load packages
+library(neonUtilities)
+library(geoNEON)
+library(raster)
+
+# Set global option to NOT convert all character variables to factors
+options(stringsAsFactors=F)
+
+
+soilchem <- loadByProduct(dpID="DP1.00096.001", site= c("DSNY","JERC","OSBS", "MLBS"), 
+                         package="expanded", check.size=T)
+
+names(soilchem)
+
+####
+View(soilchem$)
+######
+write.csv(soilchem$sim_eventData, 
+          "~/Downloads/soilchem_sim_eventData.csv", 
+          row.names=F)
+
+write.csv(soilchem$variables_10111, 
+          "~/Downloads/variables_10111.csv", 
+          row.names=F)

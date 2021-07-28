@@ -1,0 +1,337 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr  7 11:09:44 2021
+
+@author: Jen
+"""
+
+import pandas as pd
+import numpy as np
+import seaborn as sb
+import matplotlib.pyplot as plt
+from scipy import stats
+
+
+
+from os import chdir, getcwd
+wd=getcwd()
+chdir(wd)
+
+import os
+os.chdir('/Users/Jen/Downloads/')
+
+
+MYdata = pd.read_csv('EAB.csv', low_memory=False)
+
+NYpre = pd.read_csv('NY pre-EAB.csv', low_memory=False) #before 2015
+NYpost = pd.read_csv('NY post-EAB.csv', low_memory=False) #2018-2019
+
+WIpre = pd.read_csv('WI pre-EAB.csv', low_memory=False) #before 2015
+WIpost = pd.read_csv('WI post-EAB.csv', low_memory=False) #2018-2019
+
+TXpre = pd.read_csv('TX pre-EAB.csv', low_memory=False) #before 2016
+TXpost = pd.read_csv('TX post-EAB.csv', low_memory=False) #2019-2020
+
+LApre = pd.read_csv('LA pre-EAB.csv', low_memory=False) #before 2016
+LApost = pd.read_csv('LA post-EAB.csv', low_memory=False) #2019-2020
+
+MNpre = pd.read_csv('MN pre-EAB.csv', low_memory=False) #before 2017
+MNpost = pd.read_csv('MN post-EAB.csv', low_memory=False) #2020-2021
+
+#maintain decimals for lat/longitude
+pd.options.display.float_format = lambda x : '{:.0f}'.format(x) if round(x,0) == x else '{:,.6f}'.format(x)
+pd.set_option('display.max_columns', None)
+desired_width = 320    
+pd.set_option('display.width', desired_width)
+
+sb.set(rc={'figure.figsize':(20,8)}) #make plots bigger
+
+#only geolocated US data between 2000-2017
+#will look at biodiversity data before EAB and 3 years after
+sub1 = MYdata[(MYdata['year']>=2000) & (MYdata['year']<=2019) & (MYdata['countryCode']=='US') & (MYdata['decimalLatitude']>1) & (MYdata['decimalLongitude'] < -1)]
+USgeo = sub1.copy()
+
+def SPACE(): print('')  #spacing
+def LINE(): print('-------------------------------------------') #divider
+
+def EAB_sum(XX):
+# the state names always match the code so put them in a dictionary
+    state_dict = {'NY': 'New York', 'TX': 'Texas', 'WI': 'Wisconsin', 'LA': 'Louisiana', 'MN': 'Minnesota'}
+    date_range = {'NY': (2015, 2018), 'TX': (2016, 2019), 'WI': (2015, 2018), 'LA': (2016, 2019), 'MN': (2017, 2020) }
+    
+    print(XX,'EAB SUM',date_range[XX][0],'-',date_range[XX][1])
+    
+# subset to the correct year range 
+    XX_EAB = USgeo[(USgeo['year']>=date_range[XX][0]) & (USgeo['year']<=date_range[XX][1]) & (USgeo['stateProvince']==state_dict[XX])]
+
+# get the counts
+    XX_EAB = XX_EAB['year'].value_counts().sort_index()
+    XX_EAB['TOTAL'] = XX_EAB.sum()
+    print(XX_EAB, "\n\n")
+    return XX_EAB.sum()
+
+#sum of EAB geolocated records 3 years after first sighting 
+EABsums = [EAB_sum(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+EABsums
+
+SPACE()
+print('-------------------------------------------')
+print('-------------------------------------------')
+SPACE()
+
+def preEABlist(XX):
+    file_dict = {'NY':NYpre, 'WI':WIpre, 'TX':TXpre, 'LA':LApre, 'MN':MNpre}
+    print(XX, 'SPECIES LIST PRE-EAB')
+    XXpreLIST = file_dict[XX]['scientific_name'].value_counts().sort_index(ascending=True)
+    XXpreLIST['TOTAL_OBSERVED'] = file_dict[XX]['scientific_name'].value_counts().sum(axis=0)
+    XXpreLIST['UNIQUE'] = file_dict[XX]['scientific_name'].nunique(dropna=True)
+    print(XXpreLIST, "\n\n")
+    return XXpreLIST
+
+#list of all species, pre-EAB
+preEABlist1 = [preEABlist(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+SPACE()
+print('-------------------------------------------')
+SPACE()
+
+
+def preEABobvs(XX):
+    file_dict = {'NY':NYpre, 'WI':WIpre, 'TX':TXpre, 'LA':LApre, 'MN':MNpre}
+    #print(XX, 'SPECIES COUNT PRE-EAB')
+    XXpreCOUNT = file_dict[XX]['scientific_name'].value_counts().sum(axis=0)
+    #print(XXpreCOUNT, "\n\n")
+    return XXpreCOUNT
+
+#total number of species, post-EAB
+XXpreCOUNT1 = [preEABobvs(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+
+def preEABunq(XX):
+    file_dict = {'NY':NYpre, 'WI':WIpre, 'TX':TXpre, 'LA':LApre, 'MN':MNpre}
+    #print(XX, 'UNIQUE SPECIES COUNT PRE-EAB')    
+    XXpreUNQ = file_dict[XX]['scientific_name'].nunique(dropna=True)
+    #print(XXpreUNQ, "\n\n")
+    return XXpreUNQ
+
+#unique species count, post-EAB
+XXpreUNQ1 = [preEABunq(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+
+def preBIODV(XX):
+    print(XX, 'PRE-EAB BIODIVERSITY INDEX')
+    XXpreBD = (preEABunq(XX)/preEABobvs(XX))
+    print(XXpreBD)
+    return XXpreBD
+
+#biodiversity index
+preBIODV1 = [preBIODV(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+
+SPACE()
+print('-------------------------------------------')
+print('-------------------------------------------')
+SPACE()
+
+def postEABlist(XX):
+    file_dict = {'NY':NYpost, 'WI':WIpost, 'TX':TXpost, 'LA':LApost, 'MN':MNpost}
+    print(XX, 'SPECIES LIST POST-EAB')
+    XXpostLIST = file_dict[XX]['scientific_name'].value_counts().sort_index(ascending=True)
+    XXpostLIST['TOTAL_OBSERVED'] = file_dict[XX]['scientific_name'].value_counts().sum(axis=0)
+    XXpostLIST['UNIQUE'] = file_dict[XX]['scientific_name'].nunique(dropna=True)
+    print(XXpostLIST, "\n\n")
+    return XXpostLIST
+
+#list of all species, post-EAB
+postEABlist1 = [postEABlist(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+SPACE()
+print('-------------------------------------------')
+SPACE()
+
+def postEABobvs(XX):
+    file_dict = {'NY':NYpost, 'WI':WIpost, 'TX':TXpost, 'LA':LApost, 'MN':MNpost}
+    #print(XX, 'SPECIES COUNT POST-EAB')
+    XXpostCOUNT = file_dict[XX]['scientific_name'].value_counts().sum(axis=0)
+    #print(XXpostCOUNT, "\n\n")
+    return XXpostCOUNT
+
+#total number of species, post-EAB
+postEABobvs1 = [postEABobvs(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+
+def postEABunq(XX):
+    file_dict = {'NY':NYpost, 'WI':WIpost, 'TX':TXpost, 'LA':LApost, 'MN':MNpost}
+    #print(XX, 'UNIQUE SPECIES COUNT POST-EAB')    
+    XXpostUNQ = file_dict[XX]['scientific_name'].nunique(dropna=True)
+    #print(XXpostUNQ, "\n\n")
+    return XXpostUNQ
+
+#unique species count, post-EAB
+postEABunq1 = [postEABunq(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+
+def postBIODV(XX):
+    print(XX, 'POST-EAB BIODIVERSITY INDEX')
+    XXpostBD = (postEABunq(XX)/postEABobvs(XX))
+    print(XXpostBD)
+    return XXpostBD
+
+#biodiversity index
+postBIODV1 = [postBIODV(XX) for XX in ['NY', 'WI', 'TX', 'LA', 'MN']]
+SPACE()
+print('-------------------------------------------')
+print('-------------------------------------------')
+SPACE()
+    
+postall = [[EABsums,postBIODV1,preBIODV1]]
+
+d = [{'NY': 'NY', 'WI': 'WI', 'TX':'TX', 'LA':'LA', 'MN':'MN'}]
+df = pd.DataFrame(d)
+
+# plt.figure() #new figure
+# fig, ax = plt.subplots()
+
+# sb.regplot(x=EABsums, y=postBIODV1, data=postall, scatter=True, fit_reg=False, color='green', ci=False)
+# plt.xlabel('EAB SUM BY STATE')
+# plt.ylabel('BIODIVERSITY INDEX')
+# plt.title('BIODIVERSITY INDEX BY EAB SUM PER STATE')
+
+# for i, txt in enumerate(df):
+#     ax.annotate(txt, (EABsums[i], postBIODV1[i]))
+
+# sb.regplot(x=EABsums, y=preBIODV1, data=postall, scatter=True, fit_reg=False, color='blue', ci=False)
+# for i, txt in enumerate(df):
+#     ax.annotate(txt, (EABsums[i], preBIODV1[i]))
+    
+
+
+####   RUNNING A PAIRED SAMPLE T-TEST
+
+#####  PLEASE CHECK AND MAKE SURE THAT THE NUMBERS & STATE ASSIGNMENTS IN THE FINAL DATAFRAME (mergedDf) are correct. 
+######
+#####  I tried my best to keep track of all the data and numbers, but I may have made a mistake
+
+  
+# Calling DataFrame constructor on list with index named by state
+biod = pd.DataFrame(preBIODV1, index= ["NY","WI","TX","LA","MN"], columns =['pre'] )
+biod
+
+biod2 = pd.DataFrame(postBIODV1, index= ["NY","WI","TX","LA","MN"], columns =['pre'] )
+biod2
+
+#merge dataframes by index
+mergedDf = biod2.merge(biod, left_index=True, right_index=True)
+
+#make index a column
+mergedDf.reset_index(inplace=True)
+
+#rename 'index' column and the pre and post columns for ease### Please note I think I put the numbers and states in the right place, but I may have made a mistake
+
+mergedDf.rename(columns = {'index' : 'state', "pre_x": 'post', 'pre_y':'pre' }, inplace = True)
+
+
+### Running the actual t-test
+stats.ttest_rel(mergedDf['pre'], mergedDf['post'])
+
+
+### These are the results I get:
+    #Ttest_relResult(statistic=2.6871949574858007, 
+    #pvalue=0.05481740530044045)
+    # Actually you're in the border of significance your p is 0.055 -- 0.05 is generally the cutoff for significance and you're honestly right at the cutoff- it's ok to report and talk about that. 
+    ### super cool!!
+    
+    ##It looks like biodiversity decreases after invasion- which is in line with your prediction I think. Awesome! 
+    
+    
+ 
+    
+ 
+#### Playing with Plotting the data
+
+
+## Plot of Pre & Post from: https://seaborn.pydata.org/tutorial/categorical.html
+
+
+##Need to reshape the data file-- again this is all under the assumption that I put the right biodiverstiy numbers in the right state at the right time
+
+#merge dataframes by index-- just going to remake this merged dataframe to get the index back because it's easier that way
+merge = biod2.merge(biod, left_index=True, right_index=True)
+merge.rename(columns = {"pre_x": 'post', 'pre_y':'pre' }, inplace = True)
+
+##going to stack the dataframe to make a new series with the biodiversity stats in a single column
+m2 = merge.stack()
+
+#turn the series into a dataframe
+m2 = pd.DataFrame(m2)
+
+#make the index into a column
+
+m2.reset_index(inplace=True)
+
+#List columns and rename them into useful things
+print(m2.columns)
+m2.rename(columns = {"level_0": 'state', 'level_1':'time', 0 :'biodiv' }, inplace = True)
+
+# Make the graph 
+sb.catplot(x="time", y="biodiv", kind="box", data=m2)
+
+
+
+###Now the line graph issue
+
+## I just realized that the post is BEFORE the pre, so you can fix this by moving the columns and that should fix it
+## Also you can do this for your "pre/ post year 1/ post year 2" data too if you want.
+# You just need to put the data in the same format with the different variables in the "time" column 
+sb.catplot(x="time", y="biodiv", hue="state", kind="point", data=m2)
+
+
+
+## Running a Repeated Measures ANOVA
+
+from statsmodels.stats.anova import AnovaRM
+
+#perform the repeated measures ANOVA
+print(AnovaRM(data=df, depvar='biodiv', subject='state', within=['time_cat']).fit())
+
+
+
+
+
+##### In states with EAB, does the cumulative number of EAB sightings correlate with the change in biodiversity pre-/ post- infestation?
+
+# Calling DataFrame constructor on list with index named by state
+EAB_Biodiv = pd.DataFrame(EABsums, index= ["NY","WI","TX","LA","MN"], columns =['EABsums'] )
+EAB_Biodiv
+
+EAB_Biodiv1 =pd.DataFrame(preBIODV1, index= ["NY","WI","TX","LA","MN"], columns =['pre'] )
+EAB_Biodiv1
+
+EAB_Biodiv2 =pd.DataFrame(postBIODV1, index= ["NY","WI","TX","LA","MN"], columns =['post'] )
+EAB_Biodiv2
+
+pre = np.array(preBIODV1)  #Convert list to np array 
+post = np.array(postBIODV1) 
+diff = post - pre
+
+EAB_Biodiv3 = pd.DataFrame(diff, index= ["NY","WI","TX","LA","MN"], columns =['diff'] )
+EAB_Biodiv3
+
+
+#merge dataframes by index
+Final_EAB_Biodiv = EAB_Biodiv.merge(EAB_Biodiv3, left_index=True, right_index=True)
+
+#make index a column
+Final_EAB_Biodiv.reset_index(inplace=True)
+
+#rename 'index' column and the pre and post columns for ease### Please note I think I put the numbers and states in the right place, but I may have made a mistake
+
+Final_EAB_Biodiv.rename(columns = {'index' : 'state'}, inplace = True)
+
+
+### So here's some plots to look at the relationship between EABsums and differences in biodiv
+scatterplot= sb.relplot(x="EABsums", y="diff", hue="state", data=Final_EAB_Biodiv);
+
+regplot= sb.lmplot(x="EABsums", y="diff", data=Final_EAB_Biodiv, x_jitter= 0.05);
+
+
+###Here's the stats for it, it's a Pearson's Correlation
+import scipy
+scipy.stats.pearsonr(EABsums, diff)
+
+## R = -0.91 and the p-value= 0.03 which means there is a significant correlation between the two 
+

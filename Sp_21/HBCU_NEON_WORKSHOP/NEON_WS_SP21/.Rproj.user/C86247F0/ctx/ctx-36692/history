@@ -1,0 +1,38 @@
+install.packages("devtools")
+install.packages("neonUtilities")
+install.packages("raster")
+options(stringsAsFactors=F)
+# run once to get the package, and re-run if you need to get updates
+install.packages("sp")  # work with spatial data
+install.packages("rgdal")  # work with spatial data
+install.packages("maptools")  # work with spatial objects
+install.packages("broom")  # tidy up data
+install.packages("ggplot2")  # plotting
+install.packages("neonUtilities")  # work with NEON data
+install.packages("devtools")  # to use the install_github() function
+devtools::install_github("NEONScience/NEON-geolocation/geoNEON")  # work with NEON spatial data
+# run every time you start a script
+library(sp)
+library(rgdal)
+library(maptools)
+library(broom)
+library(ggplot2)
+library(neonUtilities)
+library(geoNEON)
+# run every time you start a script
+library(sp)
+library(rgdal)
+library(maptools)
+library(broom)
+library(ggplot2)
+library(neonUtilities)
+library(geoNEON)
+options(stringsAsFactors=F)
+# run once to get the package, and re-run if you need to get updates
+install.packages("sp")  # work with spatial data
+install.packages("rgdal")  # work with spatial data
+install.packages("maptools")  # work with spatial objects
+install.packages("broom")  # tidy up data
+install.packages("ggplot2")  # plotting
+install.packages("neonUtilities")  # work with NEON data
+install.packages("devtools")  # to use the install_github() function
